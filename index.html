@@ -1,599 +1,538 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
 
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#2196F3">
     <title>Global Azure Bootcamp Curitiba 2016</title>
 
-    <!-- css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- CSS  -->
+    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+    <link href="min/custom-min.css" type="text/css" rel="stylesheet">
 </head>
-<body data-spy="scroll" data-target="#site-nav">
-    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
-        <div class="container">
-            <div class="navbar-header">
 
-                <!-- logo -->
-                <div class="site-branding">
-                    <a class="logo" href="index.html">
-                        
-                        <!-- logo image  -->
-                        <img src="assets/images/logo.png" alt="Global Azure Bootcamp">
+<body id="top" class="scrollspy">
 
-                        Curitiba 2016
-                    </a>
-                </div>
+    <!-- Pre Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
 
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
 
-            </div><!-- /.navbar-header -->
+    </div>
 
-            <div class="collapse navbar-collapse" id="navbar-items">
-                <ul class="nav navbar-nav navbar-right">
-
-                    <!-- navigation menu -->
-                    <li class="active"><a data-scroll href="#about">Sobre</a></li>
-                    <li><a data-scroll href="#speakers">Palestrantes</a></li>              
-                    <li><a data-scroll href="#schedule">Agenda</a></li>    
-                      <li><a data-scroll href="#location">Local</a></li>                          
-                    <!-- <li><a data-scroll href="#partner">Apoio</a></li>                  
-                    <li><a data-scroll href="#">Sponsorship</a></li>
-                    <li><a data-scroll href="#faq">FAQ</a></li>
-                    <li><a data-scroll href="#photos">Fotos</a></li> -->
-                
-                </ul>
-            </div>
-        </div><!-- /.container -->
-    </nav>
-
-    <header id="site-header" class="site-header valign-center"> 
-        <div class="intro">
-
-            <h2>16 de Abril / Curitiba</h2>
-            
-            <h1>Global Azure Bootcamp 2016</h1>
-            
-            <p>Mergulhe na Nuvem Pública da Microsoft</p>
-            
-            <a class="btn btn-white" 
-            	    href="https://www.sympla.com.br/global-azure-bootcamp-2016-curitiba__53880" 
-                    target="_blank">Garanta a sua vaga, Agora!</a>
-        </div>
-    </header>
-
-    <section id="about" class="section about">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-
-                    <h3 class="section-title">Sobre o evento</h3>
-
-                    <p>O Global Azure BootCamp, é um evento realizado anualmente em escala global, para que o conhecimento sobre Microsoft Azure seja disseminado entre a comunidade, incentivando a sua utilização e adoção.</p>
-	                <p>O evento é totalmente gratuito e tem como público alvo desenvolvedores, arquitetos e it-pros com interesse em conhecer e aprender mais sobre a plataforma de Cloud Computing da Microsoft.</p>
- 	                <p>Um dia de imersão completa que vai te deixar apto (pro) a desenvolver aplicações e/ou criar sua infraestrutura utilizando recursos de Cloud Computing no Microsoft Azure.</p> 
-                        
-                    <!--<figure>
-                        <img alt="" class="img-responsive" src="assets/images/about-us.jpg">
-                    </figure>-->
-
-                </div><!-- /.col-sm-6 -->
-
-                <!-- <div class="col-sm-6">
-
-                    <h3 class="section-title multiple-title">Objetivos do evento</h3>
-
-                    <p>O evento é totalmente gratuito e tem como público alvo desenvolvedores, arquitetos e it-pros com interesse em conhecer e aprender mais sobre a plataforma de Cloud Computing da Microsoft.</p>
-
-                    <ul class="list-arrow-right">
-
-                        <li>Learn from the best Asian Social Media Experts &amp; Case Studies</li>
-                        <li>Have dedicated 2-to-1 meetings with the experts</li>
-                        <li>Reach more consumers for less by learning new digital media skills</li>
-                        <li>Save money when spending in online advertising</li>
-                    
+    <!--Navigation-->
+    <div class="navbar-fixed">
+        <nav id="nav_f" class="default_color" role="navigation">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" id="logo-container">Global Azure Bootcamp / Curitiba 2016</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#sobre">sobre</a></li>
+                        <li><a href="#agenda">agenda</a></li>
+                        <li><a href="#palestrantes">palestrantes</a></li>
+                       <!-- <li><a href="#apoio">apoio</a></li> -->
+                        <li><a href="#local">local</a></li>
+                        <li><a href="https://www.sympla.com.br/global-azure-bootcamp-2016-curitiba__53880" target="_blank">inscrições</a></li>
                     </ul>
-
-                </div>-->
-                <!-- /.col-sm-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section>
-
-    <section id="facts" class="section bg-image-1 facts text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-
-                    <i class="ion-ios-calendar"></i>
-                    <h3>2016<br>Abril 16</h3>
-                
-                </div>
-                <div class="col-sm-3">
-
-                    <i class="ion-ios-location"></i>
-                    <h3>Curitiba<br>PR</h3>
-                
-                </div>
-                <div class="col-sm-3">
-
-                    <i class="ion-pricetags"></i>
-                    <h3>R$0,00<br>Totalmente Gratuito</h3>
-                
-                </div>
-                <div class="col-sm-3">
-                
-                    <i class="ion-speakerphone"></i>
-                    <h3>+06<br>Palestrantes</h3>
-                
-                </div>
-            </div><!-- row -->
-        </div><!-- container -->
-    </section>
-
-    <section id="speakers" class="section speakers">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-
-                    <h3 class="section-title">Palestrantes</h3>
-                
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="speaker">
-
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-1.jpg">
-                        </figure>
-
-                        <h4>William S. Rodriguez</h4>
-
-                        <p>Developer @ 28bytes</p>
-
-                        <ul class="social-block">
-                            <li><a href="https://twitter.com/williamsrodz" target="_blank"><i class="ion-social-twitter"></i></a></li>
-                            <li><a href="https://www.facebook.com/williamsrz" target="_blank"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://br.linkedin.com/in/williamsrz" target="_blank"><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href="https://github.com/williamsrz" target="_blank"><i class="ion-social-github"></i></a></li>
-                        </ul>
-
-                    </div><!-- /.speaker -->
-                </div><!-- /.col-md-4 -->
-
-                <div class="col-md-4">
-                    <div class="speaker">
-
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-2.jpg">
-                        </figure>
-
-                        <h4>Welington Oliveira</h4>
-
-                        <p>Consultor @ WZ Tecnologia</p>
-
-                        <ul class="social-block">
-                            <li><a href="" target="_blank"><i class="ion-social-twitter"></i></a></li>
-                            <li><a href="" target="_blank"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="" target="_blank"><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href="" target="_blank"><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-
-                    </div><!-- /.speaker -->
-                </div><!-- /.col-md-4 -->
-
-                <div class="col-md-4">
-                    <div class="speaker">
-
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-3.jpg">
-                        </figure>
-
-                        <h4>Eduardo Spaki</h4>
-
-                        <p>Software Engineer @ Alta Rail Technology</p>
-
-                         <ul class="social-block">
-                            <li><a href="" target="_blank"><i class="ion-social-twitter"></i></a></li>
-                            <li><a href="" target="_blank"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="" target="_blank"><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href="" target="_blank"><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-
-                    </div><!-- /.speaker -->
-                </div><!-- /.col-md-4 -->
-            </div><!-- /.row -->
-	        <!-- 
-            <div class="row">
-                <div class="col-md-4">
-
-                    <div class="speaker">
-
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-4.jpg">
-                        </figure>
-
-                        <h4>Jhon Smith</h4>
-
-                        <p>CEO of Peren</p>
-
-                         <ul class="social-block">
-                            <li><a href="" target="_blank"><i class="ion-social-twitter"></i></a></li>
-                            <li><a href="" target="_blank"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="" target="_blank"><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href="" target="_blank"><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4">
-
-                    <div class="speaker">
-
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-5.jpg">
-                        </figure>
-
-                        <h4>Jhon Smith</h4>
-
-                        <p>CEO of Peren</p>
-
-                        <ul class="social-block">
-                            <li><a href="" target="_blank"><i class="ion-social-twitter"></i></a></li>
-                            <li><a href="" target="_blank"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="" target="_blank"><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href="" target="_blank"><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="speaker">
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-6.jpg">
-                        </figure>
-                        <h4>Jhon Smith</h4>
-                        <p>CEO of Peren</p>
-                           <ul class="social-block">
-                            <li><a href="" target="_blank"><i class="ion-social-twitter"></i></a></li>
-                            <li><a href="" target="_blank"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="" target="_blank"><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href="" target="_blank"><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            -->
-        </div>
-    </section>
-    <!--
-    <section id="contribution" class="section bg-image-2 contribution">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="text-uppercase mt0 font-400">Submit Your Contribution Work</h3>
-                    
-                    <p>You've inspired new consumer, racked up click-thru's, blown-up brand awareness. We can't give you back the weekends you worked, or erase the pain of being forced to make the logo bigger. But if you submit your best work.</p>
-
-                    <a class="btn btn-white" href="#">Submit</a>
-                </div>
-            </div>
-        </div>
-    </section>
--->
-    <section id="schedule" class="section schedule">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Agenda</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="09:00">09:00</time> - <time datetime="22:00">09:30</time>
-                        </div>
-                        <h3>Abertura do Evento</h3>
-                        <p>A definir!</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="10:00">09:30</time> - <time datetime="22:00">10:30 am</time>
-                        </div>
-                        <h3>Palestra</h3>
-                       	<p>A definir!</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="10:00">10:30 am</time> - <time datetime="22:00">11:30 am</time>
-                        </div>
-                        <h3>Palestra</h3>
-                       	<p>A definir!</p>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <!-- -->
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="11:30">11:30</time> - <time datetime="22:00">13:00</time>
-                        </div>
-                        <h3>Almoço livre</h3>
-                        <p>A definir</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="10:00">13:00</time> - <time datetime="22:00">14:00</time>
-                        </div>
-                        <h3>Palestra</h3>
-                       	<p>A definir!</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="10:00">14:00</time> - <time datetime="22:00">15:00</time>
-                        </div>
-                         <h3>Palestra</h3>
-                       	<p>A definir!</p>
-                    </div>
-                </div>
-            </div>
-             <!-- -->
-             <br>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="11:30">15:00</time> - <time datetime="22:00">16:00</time>
-                        </div>
-                         <h3>Palestra</h3>
-                       	<p>A definir!</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="10:00">16:00</time> - <time datetime="22:00">17:00</time>
-                        </div>
-                         <h3>Palestra</h3>
-                       	<p>A definir!</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="10:00">17:00</time> - <time datetime="22:00">17:30</time>
-                        </div>
-                        <h3>Encerramento</h3>
-                        <p>A definir!</p>
-                    </div>
-                </div>
-            </div>
-    </section>
-<!--
-    <section id="partner" class="section partner">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Patrocínio e Apoio</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-1"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-2"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-3"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-4"></a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-5"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-6"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-7"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-8"></a>
-                </div>
-            </div>   
-    </section>
--->
-<!--
-    <section id="faq" class="section faq">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Event FAQs</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> What is the price of the ticket ?</a>
-                                </h4>
-                            </div>
-
-                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    <h3>Hello</h3>
-                                    <p>Lorem Ipsum</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> What is included in my ticket ?</a>
-                                </h4>
-                            </div>
-
-                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">Hello</div>
-                            </div>
-                        </div>
-  
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Office address ?</a>
-                                </h4>
-                            </div>
-
-                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">Hello</div>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFour">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> How should I dress ?</a>
-                                </h4>
-                            </div>
-
-                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                <div class="panel-body">Hello</div>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFive">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> I have specific questions that are not addressed here. Who can help me ?</a>
-                                </h4>
-                            </div>
-
-                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                                <div class="panel-body">Hello</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
-
-    <section id="photos" class="section photos">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Photos</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="grid">
-                        
-                        <li class="grid-item grid-item-sm-6">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-1.jpg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">
-                        </li>
-                    
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-5.jpg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-6.jpg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-7.jpg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-8.jpg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">
-                        </li>
-
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">
-                        </li>
+                    <ul id="nav-mobile" class="side-nav">
+                        <li>
+                            <li><a href="#sobre">sobre</a></li>
+                            <li><a href="#agenda">agenda</a></li>
+                            <li><a href="#palestrantes">palestrantes</a></li>
+                            <!-- <li><a href="#apoio">apoio</a></li> -->
+                            <li><a href="#local">local</a></li>
+                            <li><a href="https://www.sympla.com.br/global-azure-bootcamp-2016-curitiba__53880" target="_blank">inscrições</a></li>
                     </ul>
-                </div>
-            </div>            
+                    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        </nav>
         </div>
-    </section>
--->
-    <section id="location" class="section location">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h3 class="section-title">Local</h3>
-                    <address>
-                        <p>Centro Tecnológico Positivo<br> 
-                            Rua Alferes Ângelo Sampaio , 2300 <br>Bigorrilho, Curitiba, Paraná<br> organizacao@dotnetcuritiba.com.br</p>
-                    </address>
+
+        <!--Hero-->
+        <div class="section no-pad-bot" id="index-banner">
+            <div class="container center">
+                <h4 class="text_h_top">16 DE ABRIL / CURITIBA</h4>
+                <h1 class="text_h  header cd-headline letters type">
+                    GLOBAL AZURE BOOTCAMP 2016
+           <!-- <span>Somos apaixonados por</span> 
+            <span class="cd-words-wrapper waiting">
+                <b class="is-visible">Cloud</b>
+                <b>Azure</b>
+                <b>Comunidade</b>
+            </span> -->
+        </h1>
+                <h4 class="text_h_bottom">Plug-se na Nuvem Pública da Microsoft</h4>
+                <div class="center">
+                    <a class="waves-effect waves-light btn-large deep-orange accent-3" href="https://www.sympla.com.br/global-azure-bootcamp-2016-curitiba__53880"
+                    target="_blank">Garanta a Sua Vaga</a>
                 </div>
-                <div class="col-sm-9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.1084280214213!2d-49.29085778498572!3d-25.434638283786303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3f4853685a3%3A0x19cf87634c35047a!2sR.+Alferes+%C3%82ngelo+Sampaio%2C+2300+-+Bigorrilho%2C+Curitiba+-+PR%2C+80730-460!5e0!3m2!1sen!2sbr!4v1455129834356" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <h6 class="text_h_sub">vagas limitadas!</h6>
+            </div>
+        </div>
+
+        <!--sobre-->
+        <div id="sobre" class="section scrollspy">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h2 class="center header text_h2"> 
+                            O Global Azure BootCamp, é um <span class="span_h2">evento gratuito</span> 
+                            realizado anualmente em escala global, para que o conhecimento sobre <span class="span_h2">Microsoft Azure</span>
+                             seja disseminado entre a comunidade, incentivando a sua utilização e adoção.
+                  	   </h2>
+                    </div>
+
+                    <div class="col s12 m4 l4">
+                        <div class="center promo promo-example">
+                            <i class="mdi-social-group"></i>
+                            <h5 class="promo-caption">Público Alvo</h5>
+                            <p class="light center">Desenvolvedores, arquitetos e it-pros com interesse em conhecer e aprender mais sobre a plataforma
+                                de Cloud Computing da Microsoft.</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="center promo promo-example">
+                            <i class="mdi-av-volume-down"></i>
+                            <h5 class="swap_vertical_circle">Networking</h5>
+                            <p class="light center">Aproveite para conhecer pessoas, fazer crescer sua rede de contatos que pode lhe proporcionar
+                                valor, desde a troca de valiosas informações sobre soluções na Nuvem, ou simplesmente para
+                                um bom papo sobre tecnologia.</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="center promo promo-example">
+                            <i class="mdi-action-backup"></i>
+                            <h5 class="promo-caption">Plug-se a Nuvem</h5>
+                            <p class="light center">Um dia de imersão completa que vai te deixar apto (pro) a desenvolver aplicações e/ou criar sua
+                                infraestrutura utilizando recursos de Cloud Computing no Microsoft Azure.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
 
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="site-info">Organização Local por <a href="https://www.facebook.com/dotnetcuritiba/">.Net Curitiba</a></p>
-                   <!-- <ul class="social-block">
-                        <li><a href="https://www.facebook.com/dotnetcuritiba/"><i class="ion-social-facebook"></i></a></li>
-                    </ul> -->
+        <!--agenda-->
+        <div class="section scrollspy grey lighten-5" id="agenda">
+            <div class="container">
+                <h2 class="header text_b">Agenda </h2>
+                <div class="row">
+                    <div class="col s12 m4 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/palestra.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Abertura<i class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="#">09:00 - 09:30</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Abertura<i class="mdi-navigation-close right"></i></span>
+                                <p>Conteúdo a definir. Qualquer dúvida entre em contato conosco!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/palestra.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Palestra <i class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="#">09:30 - 10:30</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Palestra <i class="mdi-navigation-close right"></i></span>
+                                <p>Estamos em processo de aprovação das palestras. Qualquer dúvida entre em contato conosco!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/palestra.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Palestra <i class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="#">10:30 - 11:30</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Palestra <i class="mdi-navigation-close right"></i></span>
+                                <p>Estamos em processo de aprovação das palestras. Qualquer dúvida entre em contato conosco!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/palestra.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Almoço livre<i class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="#">11:30 - 13:00</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Almoço livre <i class="mdi-navigation-close right"></i></span>
+                                <p>Intervalo para recarregar as energias.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/palestra.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Palestra <i class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="#">13:00 - 14:00</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Palestra <i class="mdi-navigation-close right"></i></span>
+                                <p>Estamos em processo de aprovação das palestras. Qualquer dúvida entre em contato conosco!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/palestra.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Palestra <i class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="#">14:00 - 15:00</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Palestra <i class="mdi-navigation-close right"></i></span>
+                                <p>Estamos em processo de aprovação das palestras. Qualquer dúvida entre em contato conosco!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/palestra.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Palestra <i class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="#">15:00 - 16:00</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Palestra <i class="mdi-navigation-close right"></i></span>
+                                <p>Estamos em processo de aprovação das palestras. Qualquer dúvida entre em contato conosco!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/palestra.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Palestra <i class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="#">16:00 - 17:00</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Palestra <i class="mdi-navigation-close right"></i></span>
+                                <p>Estamos em processo de aprovação das palestras. Qualquer dúvida entre em contato conosco!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/palestra.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Encerramento<i class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="#">17:00 - 17:30</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Encerramento<i class="mdi-navigation-close right"></i></span>
+                                <p>Conteúdo a definir. Qualquer dúvida entre em contato conosco!</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
 
-    <!-- script -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
-    <script src="assets/js/main.js"></script>
+        <!--Parallax
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/bg-2.jpg"></div>
+        </div>-->
+
+        <!--palestrantes-->
+        <div class="section scrollspy white" id="palestrantes">
+            <div class="container">
+                <h2 class="header text_b">Palestrantes</h2>
+                <div class="row">
+                    <div class="col s12 m3">
+                        <div class="card card-avatar">
+                            <div class="waves-effect waves-block waves-light">
+                                <img class="activator" src="img/avatar1.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">William <br>S. Rodriguez <br/>
+                            <small><em><a class="grey-text text-darken-1" href="#">28 Bytes</a></em></small></span>
+                                <p>
+                                    <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
+                                        <i class="fa fa-twitter-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
+                                        <i class="fa fa-google-plus-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
+                                        <i class="fa fa-linkedin-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card card-avatar">
+                            <div class="waves-effect waves-block waves-light">
+                                <img class="activator" src="img/avatar2.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Eduardo <br> Spaki<br/>
+                            <small><em><a class="grey-text text-darken-1" href="#">ALTA RAIL</a></em></small>
+                        </span>
+                                <p>
+                                    <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
+                                        <i class="fa fa-twitter-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
+                                        <i class="fa fa-google-plus-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
+                                        <i class="fa fa-linkedin-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card card-avatar">
+                            <div class="waves-effect waves-block waves-light">
+                                <img class="activator" src="img/avatar3.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">
+                           Alessandro <br> Binhara  <br/> 
+                            <small><em><a class="grey-text text-darken-1" href="#">Azuris</a></em></small></span>
+                                <p>
+                                    <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
+                                        <i class="fa fa-twitter-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
+                                        <i class="fa fa-google-plus-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
+                                        <i class="fa fa-linkedin-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card card-avatar">
+                            <div class="waves-effect waves-block waves-light">
+                                <img class="activator" src="img/avatar4.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Welington <br> Oliveira<br/>
+                            <small><em><a class="grey-text text-darken-1" href="#">WZ Tecnologia</a></em></small></span>
+                                <p>
+                                    <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
+                                        <i class="fa fa-twitter-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
+                                        <i class="fa fa-google-plus-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
+                                        <i class="fa fa-linkedin-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card card-avatar">
+                            <div class="waves-effect waves-block waves-light">
+                                <img class="activator" src="img/avatar4.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Thiago <br> Guirotto<br/>
+                            <small><em><a class="grey-text text-darken-1" href="#">Microsoft MVP</a></em></small></span>
+                                <p>
+                                    <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
+                                        <i class="fa fa-twitter-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
+                                        <i class="fa fa-google-plus-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
+                                        <i class="fa fa-linkedin-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card card-avatar">
+                            <div class="waves-effect waves-block waves-light">
+                                <img class="activator" src="img/avatar2.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Breno <br> Santos<br/>
+                            <small><em><a class="grey-text text-darken-1" href="#">Infinutus</a></em></small>
+                        </span>
+                                <p>
+                                    <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
+                                        <i class="fa fa-twitter-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
+                                        <i class="fa fa-google-plus-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
+                                        <i class="fa fa-linkedin-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card card-avatar">
+                            <div class="waves-effect waves-block waves-light">
+                                <img class="activator" src="img/avatar2.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Palestrante <br> 07<br/>
+                            <small><em><a class="grey-text text-darken-1" href="#">Empresa</a></em></small>
+                        </span>
+                                <p>
+                                    <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
+                                        <i class="fa fa-twitter-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
+                                        <i class="fa fa-google-plus-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
+                                        <i class="fa fa-linkedin-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card card-avatar">
+                            <div class="waves-effect waves-block waves-light">
+                                <img class="activator" src="img/avatar2.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Palestrante <br> 08<br/>
+                            <small><em><a class="grey-text text-darken-1" href="#">Empresa</a></em></small>
+                        </span>
+                                <p>
+                                    <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
+                                        <i class="fa fa-twitter-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
+                                        <i class="fa fa-google-plus-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
+                                        <i class="fa fa-linkedin-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Parallax
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/parallax1.png"></div>
+        </div>-->
+        <!--apoio
+        <div class="section scrollspy" id="apoio">
+            <div class="container">
+                <h2 class="header text_b">Patrocínio e Apoio</h2>
+                <div class="row">
+                    <div class="col s12 m3">
+                        <div class="card-panel center">
+                            <span>Apoio 01</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!--local-->
+        <div class="section scrollspy grey lighten-4" id="local">
+            <div class="container">
+                <h2 class="header text_b">Local</h2>
+                <div class="row">
+                    <div class="col s12 m12">
+                        <h5>Centro Tecnológico Positivo</h5> R. Alferes Ângelo Sampaio, 2300. Bigorrilho, Curitiba, Paraná.
+                        <br>
+                        <a href="mailto:organizacao@dotnetcuritiba.com.br">organizacao@dotnetcuritiba.com.br</a>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col s12 m12">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.1084280214213!2d-49.29085778498572!3d-25.434638283786303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3f4853685a3%3A0x19cf87634c35047a!2sR.+Alferes+%C3%82ngelo+Sampaio%2C+2300+-+Bigorrilho%2C+Curitiba+-+PR%2C+80730-460!5e0!3m2!1sen!2sbr!4v1455129834356"
+                        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <footer id="contact" class="page-footer light-blue darken-2 scrollspy">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div>
+            <div class="footer-copyright light-blue darken-2">
+                <div class="container">
+                    Global Azure Bootcamp 2016, Organizado por <a class="white-text" href="#">.Net Curitiba</a>
+                </div>
+            </div>
+        </footer>
+
+
+        <!--  Scripts-->
+        <script src="min/plugin-min.js"></script>
+        <script src="min/custom-min.js"></script>
+
 </body>
+
 </html>
