@@ -323,3 +323,24 @@ nav a.button-collapse {
 footer.page-footer {
     margin-top: 0px !important
 }
+
+.apoio-frame {
+    text-align: center; margin: 1em 0;
+}
+
+.apoio-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.apoio-frame img {
+    vertical-align: middle;
+    margin: 20px;
+    max-width: 90%;
+}
+
+img.apoio-support {
+   max-height: 150px; 
+    max-width: 70%;
+}
