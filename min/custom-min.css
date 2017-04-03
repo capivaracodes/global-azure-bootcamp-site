@@ -102,6 +102,32 @@
     color: #01579B
 }
 
+.speaker {
+    margin-bottom: 18px;
+}
+
+.speaker-avatar {
+    width: 132px;
+}
+
+.speaker-title {
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: 0 0 6px 0;
+    padding: 0;
+}
+
+.speaker-role {
+    font-size: 1.2em;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+.speaker-social {
+    font-size: 1.6em !important;
+}
+
 #work,
 #team {
     background: rgb(247, 247, 247)
