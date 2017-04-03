@@ -111,6 +111,27 @@
     color: #EF9A9A
 }
 
+.schedule-speaker {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.schedule-time {
+    font-size: 1.4em;
+    font-weight: 300;
+    color: #01579B;
+}
+
+.schedule-title {
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+.schedule-desc {
+    font-size: 1.4em;
+    font-weight: 200;
+}
+
 nav ul a {
     
     color: #FFF;
