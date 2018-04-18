@@ -44,9 +44,7 @@
     "siteUrl": "",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "",
-    "sitemapSwitcherAuto": "on",
-    "publishType": "local",
-    "publishPath": "file:///Users/william/Source/global-azure-bootcamp-site"
+    "sitemapSwitcherAuto": "on"
   },
   "pages": {
     "index.html": {
