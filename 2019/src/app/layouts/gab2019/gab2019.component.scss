@@ -1,0 +1,59 @@
+.uk-position-relative {
+  background: url('/assets/img/bg-header-2019.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  * {
+    z-index: 2
+  }
+
+  .gab-backdrop {
+    z-index: 1;
+  }
+
+  img {
+    width: 30%;
+  }
+
+  h1,
+  h2,
+  h3 {
+    color: white;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+}
+
+div[uk-margin] {
+  a {
+    font-weight: 600;
+    font-size: 1.1em;
+  }
+
+  a:first-child {
+    margin-right: 1rem;
+  }
+
+}
+
+
+.gab-backdrop {
+  background: rgba(0, 0, 0, .5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
