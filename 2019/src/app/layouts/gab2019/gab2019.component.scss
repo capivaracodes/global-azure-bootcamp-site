@@ -1,5 +1,5 @@
 .uk-position-relative {
-  background: url('/assets/img/bg-header-2019.webp');
+  background: url('/assets/img/bg-header-2019.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -56,4 +56,17 @@ div[uk-margin] {
   left: 0;
   height: 100%;
   width: 100%;
+}
+
+#brand {
+  width: 15%;
+  margin: 2rem;
+}
+
+.margin-fix {
+  margin-top: 0;
+}
+
+h2.margin-fix {
+  margin-bottom: 1rem;
 }

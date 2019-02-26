@@ -1,0 +1,13 @@
+<div class="uk-flex uk-flex-center" uk-grid>
+  <div class="uk-width-1-6" *ngFor="let speaker of speakers">
+    <div class="uk-card uk-card-default uk-card-hover uk-card-small">
+      <div class="uk-card-media-top">
+        <img src="{{ speaker.picture.url }}" alt="{{ speaker.picture.alt }}">
+      </div>
+      <div class="uk-card-body">
+        <h3 class="uk-card-title uk-text-center">{{ speaker.name }}</h3>
+        <p class="uk-text-center">{{ speaker.cargo }}</p>
+      </div>
+    </div>
+  </div>
+</div>

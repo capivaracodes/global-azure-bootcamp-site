@@ -3,6 +3,14 @@ h1, p, address {
 }
 
 .uk-container {
+    p {
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-bottom: 0;
+        &:last-child {
+            margin-top: 1rem;
+        }
+    }
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -36,8 +44,4 @@ h1, p, address {
 
 .flex-center {
     align-items: center;
-}
-
-img {
-    height: 15rem;
 }

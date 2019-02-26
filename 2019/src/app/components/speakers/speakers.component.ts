@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { speakers } from 'src/app/providers/speakers';
 
 @Component({
   selector: 'app-speakers',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./speakers.component.scss']
 })
 export class SpeakersComponent implements OnInit {
+
+  speakers = speakers;
 
   constructor() { }
 
