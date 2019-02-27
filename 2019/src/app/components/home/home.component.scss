@@ -18,14 +18,15 @@ h1, p, address {
     margin-right: 0;
     width: 100%;
     max-width: 100%;
-    padding: 2rem 0;
+    padding-left: 0;
+    padding-right: 0;
     &:last-child {
         padding-bottom: 0;
     }
 }
 
-.uk-container:nth-child(2n) {
-    background: rgb(230, 230, 230);
+.uk-container-expand:nth-child(2n) {
+    background: rgb(245, 245, 245);
 }
 
 .flex-row {
@@ -44,4 +45,8 @@ h1, p, address {
 
 .flex-center {
     align-items: center;
+}
+
+.location-container {
+    padding-top: 70px;
 }

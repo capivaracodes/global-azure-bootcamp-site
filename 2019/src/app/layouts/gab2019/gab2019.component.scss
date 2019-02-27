@@ -70,3 +70,29 @@ div[uk-margin] {
 h2.margin-fix {
   margin-bottom: 1rem;
 }
+
+.sm-show {
+  display: none;
+}
+
+#sm-brand {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media(max-width: 768px) {
+  .sm-hidden {
+    display: none;
+  }
+
+  .sm-show {
+    display: block;
+  }
+
+  .sm-align-fix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
