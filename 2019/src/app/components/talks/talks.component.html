@@ -1,0 +1,20 @@
+<div class="uk-flex uk-flex-center" uk-grid>
+  <ul class="timeline">
+    <li *ngFor="let talk of talks" class="uk-card uk-card-default uk-card-small">
+      <div class="timeline-image uk-flex uk-flex-center">
+        <img style="height: 100%;" class="rounded-circle img-fluid" src="{{ talk.talk.url }}" alt="{{ talk.talk.alt }}">
+      </div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4><b>{{ talk.time }}</b></h4>
+          <h4 class="subheading">{{ talk.talk.title }}</h4>
+          <h5>{{ talk.talk.speaker }}</h5>
+        </div>
+        <div class="timeline-body">
+          <p class="text-muted">{{ talk.talk.description }}</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+

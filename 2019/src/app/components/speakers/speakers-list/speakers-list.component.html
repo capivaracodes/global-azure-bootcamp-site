@@ -1,7 +1,7 @@
 <div class="uk-flex uk-flex-center" uk-grid>
   <div class="uk-width-1-4@m uk-width-1-1@s" *ngFor="let speaker of speakers">
     <div class="uk-card uk-card-default uk-card-hover uk-card-small">
-      <div class="uk-card-media-top">
+      <div class="uk-card-media-top" style="max-height: 18rem;overflow: hidden;">
         <img src="{{ speaker.picture.url }}" alt="{{ speaker.picture.alt }}">
       </div>
       <div class="uk-card-body">

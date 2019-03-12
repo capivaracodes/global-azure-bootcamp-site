@@ -1,0 +1,44 @@
+.timeline {
+    list-style: none;
+    position: relative;
+    &::before {
+        content: ' ';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: #cecece;
+        left: 9rem;
+        z-index: 0;
+    }
+
+    li {
+        display: flex;
+        flex-direction: row;
+        margin: 2rem;
+        padding: 1rem;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+    }
+
+    .timeline-image {
+        width: 7rem;
+        height: 7rem;
+        border: 2px solid #cecece;
+        border-radius: 100%;
+        margin-right: 2rem;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .timeline-heading {
+        h4, h5 {
+            margin: 0;
+        }
+    }
+}
