@@ -30,7 +30,7 @@ export const speakers = [{
         description: 'Nesta talk vou estar apresentando como adicionar análises de Sentimento em uma app com Cognitives Services do Azure.'
     },
     picture: {
-        url: 'https://pbs.twimg.com/profile_images/948954353704022016/YOyatNgP_400x400.jpg',
+        url: '/assets/img/speakers/cleiton.jpg',
         alt: 'Foto de Cleiton Felipe de Moraes'
     },
     cargo: 'MTAC'
@@ -86,4 +86,29 @@ export const speakers = [{
         alt: 'Foto de Jhionan Rian Lara dos Santos'
     },
     cargo: 'Desenvolvedor Mobile'
+}, {
+    name: 'Gabriel Amorim',
+    talk: {
+        title: 'Azure Active Directory Connect and School Data Sync',
+        // tslint:disable-next-line:max-line-length
+        description: 'Abordaremos o poder da identidade com o Azure Active Directory Connect integrando à produtividade da família Office 365 voltada a Educação.'
+    },
+    picture: {
+        url: '/assets/img/speakers/Gabriel Amorim.jpg',
+        alt: 'Foto de Gabriel Amorim'
+    },
+    cargo: 'Analista de Infraesturtura @Big Brain Education'
+},
+{
+    name: 'Marcos Kojima',
+    talk: {
+        title: 'Azure Active Directory Connect and School Data Sync',
+        // tslint:disable-next-line:max-line-length
+        description: 'Abordaremos o poder da identidade com o Azure Active Directory Connect integrando à produtividade da família Office 365 voltada a Educação.'
+    },
+    picture: {
+        url: '/assets/img/speakers/Marcos Kojima.jpg',
+        alt: 'Marcos Kojima'
+    },
+    cargo: 'Gerente de Projeto @Big Brain Education'
 }];

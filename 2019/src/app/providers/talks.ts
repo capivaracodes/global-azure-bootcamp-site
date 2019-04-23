@@ -21,7 +21,15 @@ export const talks = [
     },
     {
         time: '11h',
-        talk: speakersMap.get(2)
+        talk: {
+            speaker: 'Gabriel Amorim e Marcos Kojima',
+            title: 'Azure Active Directory Connect and School Data Sync',
+            description: `Abordaremos o poder da identidade com o Azure Active Directory Connect integrando
+            à produtividade da família Office 365 voltada a Educação.`,
+            // tslint:disable-next-line:max-line-length
+            url: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80',
+            alt: 'Correntes e um cadeado'
+        }
     },
     {
         time: '12h',
@@ -57,7 +65,11 @@ export const talks = [
         }
     },
     {
-        time: '15h50min',
+        time: '16h',
+        talk: speakersMap.get(2)
+    },
+    {
+        time: '16h50min',
         talk: {
             title: 'Encerramento',
             description: 'Agradecimentos, sorteios e distribuição de brindes',
